@@ -16,7 +16,7 @@ Finally the experience of building it was one of the main drivers for the projec
 
 Video:
 
-![[result](https://youtu.be/0twuO1NCBnw)](frontpage/result.jpeg)
+[![result](frontpage/result.jpeg)](https://youtu.be/0twuO1NCBnw)
 
 ## Electronics design
 
