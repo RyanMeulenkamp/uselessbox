@@ -14,7 +14,9 @@ Off course, I'm joking. You wouldn't be here if it was actually usesless. It wou
 
 Finally the experience of building it was one of the main drivers for the project. Mainly dusting of my knowledge in embedded programming and electronics, as well as gaining some experience with woodworking.
 
-![result](frontpage/result.jpeg)
+Video:
+
+[![result](frontpage/result.jpeg)](https://youtu.be/0twuO1NCBnw)
 
 ## Electronics design
 
