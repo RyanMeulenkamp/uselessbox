@@ -1,7 +1,6 @@
 #ifndef PUZZLE_HPP
 #define PUZZLE_HPP
 
-#include <EEPROM.h>
 #include "useless_box.hpp"
 
 class Puzzle : public UselessBox {

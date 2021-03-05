@@ -22,6 +22,13 @@ typedef struct Color {
     static const struct Color OFF;
 
     static Color from_hue(unsigned short hue);
+
+    inline bool operator== (const Color& another) const {
+        return red == another.red && green == another.green && blue == another.blue;
+    }
+    inline bool operator!= (const Color& another) const{
+        return !operator==(another);
+    }
 } Color;
 
 class Leds {

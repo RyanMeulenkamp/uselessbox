@@ -11,7 +11,7 @@ const int VINGER_UP = 180;
 const int ARM_POS[] = {4, 44, 81, 119, 165};
 
 // Speed definitions (microseconds per degree)
-const unsigned long X_SPEED = 3500UL;
+const unsigned long X_SPEED = 4000UL;
 const unsigned long Y_SPEED = 3250UL;
 
 const unsigned long TRANSITION_TIME_Y = ((unsigned long) (VINGER_UP - VINGER_DOWN) * Y_SPEED);

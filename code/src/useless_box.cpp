@@ -56,7 +56,9 @@ void UselessBox::power_up() {
 
 void UselessBox::power_down() {
     // If the power source is routed through the hat, this will turn the Arduino off completely
-    digitalWrite(POWER_ENABLE, LOW);
+    if (on_color == Color::WHITE && off_color == Color::OFF) {
+        digitalWrite(POWER_ENABLE, LOW);
+    }
 }
 
 /**

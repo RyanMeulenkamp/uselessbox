@@ -69,5 +69,5 @@ void Puzzle::power_down() {
     progress = 0;
 }
 
-Puzzle::Puzzle() : UselessBox(0, 0), progress(0), wins(0), order(random_order()) {
+Puzzle::Puzzle() : UselessBox(0, 0), order(random_order()), progress(0), wins(0) {
 }

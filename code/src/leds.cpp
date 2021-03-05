@@ -1,13 +1,5 @@
 #include "leds.hpp"
 
-inline bool operator==(const Color& one, const Color& another) {
-    return one.red == another.red && one.green == another.green && one.blue == another.blue;
-}
-
-inline bool operator!=(const Color& one, const Color& another) {
-    return !(one == another);
-}
-
 const struct Color Color::RED = {255, 0, 0};
 const struct Color Color::GREEN = {0, 255, 0};
 const struct Color Color::BLUE = {0, 0, 255};
